@@ -21,7 +21,7 @@ func (u User) printAge() {
 func main() {
 	u := User{
 		firstName: "Anupam",
-		lastName:  "Kumar",
+		lastName:  "Singh",
 		age:       21,
 	}
 	u.printName()
