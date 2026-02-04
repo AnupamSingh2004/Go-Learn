@@ -1,0 +1,5 @@
+package erros
+
+func main() {
+	
+}
