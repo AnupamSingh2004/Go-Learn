@@ -31,4 +31,8 @@ func main() {
 
 	fmt.Println("Result of Division and Mod is :", q, r)
 
+	fmt.Println(calc(2, 3))
+
+	fmt.Println(adding(5, 1000))
+
 }

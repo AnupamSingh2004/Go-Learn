@@ -1,5 +1,0 @@
-package erros
-
-func main() {
-	
-}

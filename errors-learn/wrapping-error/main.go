@@ -6,7 +6,7 @@ import (
 )
 
 func readConfig() error {
-	return errors.New("Simulating error")
+	return errors.New("simulating error")
 }
 
 func loadApp() error {
@@ -24,6 +24,6 @@ func main() {
 
 	if err != nil {
 		fmt.Println(err)
-		return 
+		return
 	}
 }
