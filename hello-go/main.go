@@ -12,6 +12,10 @@ func printName() {
 func main() {
 	fmt.Println("Hello World")
 	printName()
+
+	var name string
+	fmt.Scanln(&name)
+
 }
 
 /*

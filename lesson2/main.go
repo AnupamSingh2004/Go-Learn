@@ -20,8 +20,7 @@ func main() {
 	a, b = b, a
 	fmt.Println(a, b)
 
-	///2 wways of making map
-
+	///2 ways of making map
 	m := make(map[string]int)
 	m["key"] = 10
 	fmt.Println(m)
