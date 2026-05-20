@@ -3,6 +3,11 @@ package main
 import "fmt"
 
 func main() {
+	//this is basically the loop in go
+	// 	for initialization; condition; update {
+	//     // code
+	// }
+
 	for i := 0; i < 10; i++ {
 		fmt.Println(i)
 	}
@@ -13,6 +18,8 @@ func main() {
 		i++
 	}
 
+	//Print index and element of the array
+	
 	k := []int{1, 2, 3, 4, 5}
 
 	for i, j := range k {
