@@ -26,4 +26,14 @@ func typess() {
 
 	greet("Anupam")
 
+	count := 0
+
+	increment := func() {
+		count++
+		fmt.Println(count)
+	}
+
+	increment()
+	increment()
+
 }
